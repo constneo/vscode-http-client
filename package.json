@@ -9,7 +9,7 @@
   "main": "./src/extension.js",
   "type": "module",
   "l10n": "./l10n",
-  "homepage": "https://github.com/constneo",
+  "homepage": "https://github.com/constneo/vscode-http-client",
   "license": "SEE LICENSE IN LICENSE.md",
   "imports": {},
   "author": "constneo",
