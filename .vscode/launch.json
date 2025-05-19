@@ -1,0 +1,34 @@
+{
+  // document: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "RESTful API Client",
+      "type": "extensionHost",
+      "request": "launch",
+      "internalConsoleOptions": "openOnSessionStart",
+      "runtimeExecutable": "${execPath}",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}",
+        // "--disable-extensions",
+        "${workspaceRoot}/test"
+      ],
+      "skipFiles": ["<node_internals>/**", "${workspaceFolder}/node_modules/**"],
+      "outFiles": ["${workspaceFolder}/out/**/*.js"]
+      // "preLaunchTask": "npm: watch"
+    },
+    {
+      "name": "Test Program",
+      "program": "${workspaceFolder}/test/test.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**", "${workspaceFolder}/node_modules/**"],
+      "type": "node"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "启动调试任务",
+      "configurations": ["RESTful API Client"]
+    }
+  ]
+}

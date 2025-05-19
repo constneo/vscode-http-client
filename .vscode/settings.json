@@ -1,0 +1,22 @@
+{
+  "svg.preview.background": "editor",
+  "restful-api-client.request.fields": [
+    "data",
+    "status",
+    "statusText",
+  ],
+  // "workbench.colorTheme": "Default Dark+"
+  "files.exclude": {
+    "out": false // set this to true to hide the "out" folder with the compiled JS files
+  },
+  "search.exclude": {
+    "out": true,
+    "scripts": true,
+    "*config.json": true,
+    "*.config.js": true,
+    ".vscodeignore": true
+  },
+  "editor.renderWhitespace": "all",
+  "deno.enable": false,
+  "typescript.tsdk": "./node_modules/typescript/lib" // we want to use the TS server from our node_modules folder to control its version
+}

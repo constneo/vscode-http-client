@@ -1,0 +1,27 @@
+{
+  "API Template": {
+    "scope": "javascript,typescript",
+    "prefix": ".api",
+    "body": [
+      "const api = {",
+      "  baseURL: 'http://127.0.0.1:4000',",
+      "  url: '/users',",
+      "  method: 'GET',",
+      "  headers: {",
+      "    'Content-Type': 'application/json'",
+      "  },",
+      "  data: {",
+      "    language: `zh-cn`",
+      "  } ",
+      "}",
+      ""
+    ],
+    "description": "Generate a api template."
+  },
+  "Output a uuid string": {
+    "scope": "javascript",
+    "prefix": ".uuid",
+    "body": ["$UUID"],
+    "description": "Generate a uuid string"
+  }
+}
