@@ -1,5 +1,5 @@
 {
-  "name": "vscode-http-client",
+  "name": "vscode-neo-http-client",
   "displayName": "RESTful API Http Client",
   "version": "1.0.0",
   "publisher": "constneo",
