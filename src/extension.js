@@ -19,13 +19,12 @@ export function activate(context) {
   const config = getConfig()
   if (config.enable) {
     // 加载当前语言的翻译文件
-    const locale = vscode.env.language
+    // const locale = vscode.env.language
 
     context.subscriptions.push(output(context))
     context.subscriptions.push(gen(context))
     context.subscriptions.push(statusbar(context))
     context.subscriptions.push(run(context))
-    // context.subscriptions.push(new CodeLensProvider())
     context.subscriptions.push(useCodeLens())
   }
 }

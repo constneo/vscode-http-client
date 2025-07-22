@@ -8,6 +8,7 @@
 // {"message":"创建成功","code":200,"result":{"name":"wing","id":"123"},"success":true}
 const Create = {
   url: "http://127.0.0.1:5000/users",
+  method: "POST",
   body: {
     id: "123",
     name: "abc"

@@ -11,7 +11,7 @@
       "args": [
         "--extensionDevelopmentPath=${workspaceFolder}",
         // "--disable-extensions",
-        "${workspaceRoot}/test"
+        "${workspaceRoot}/examples"
       ],
       "skipFiles": ["<node_internals>/**", "${workspaceFolder}/node_modules/**"],
       "outFiles": ["${workspaceFolder}/out/**/*.js"]
