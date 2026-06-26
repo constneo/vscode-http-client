@@ -1,7 +1,7 @@
 {
   "name": "vscode-neo-http-client",
   "displayName": "RESTful API Http Client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "constneo",
   "private": true,
   "description": "A simple HTTP client for testing RESTful APIs.",

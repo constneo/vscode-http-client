@@ -5,7 +5,7 @@ import * as esbuild from "esbuild"
 await esbuild.build({
   entryPoints: ["./src/extension.js"],
   bundle: true,
-  outfile: "extension.js",
+  outfile: "out.js",
   minify: false,
   sourcemap: false,
   platform: "node",

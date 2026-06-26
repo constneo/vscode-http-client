@@ -27,6 +27,7 @@ export default function run(context) {
     const context = vm.createContext({
       console,
       process,
+      fs: vscode.workspace.fs,
       apis: {}
     })
 

@@ -1,4 +1,5 @@
 export def main [] {
+
   (
     npx esbuild
     src/extension.js
@@ -6,6 +7,6 @@ export def main [] {
     --format=esm
     --platform=node
     --outfile=out.js
-    # --minify
+    --minify
   )
 }

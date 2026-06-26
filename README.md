@@ -35,3 +35,9 @@ const API_POST = {
   })
 }
 ```
+
+## Build
+
+```
+npm run pack
+```
